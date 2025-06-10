@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package game;
 
 public class Flag extends gamePiece
@@ -19,3 +20,26 @@ public class Flag extends gamePiece
 	}
 
 }
+=======
+package game;
+
+public class Flag extends gamePiece
+{
+	public Flag() 
+	{
+		super();
+		setNumber("F");
+		setPieceCount(1);
+		setPieceDescription("Winning objective: Capture the enemy's flag and defend your own!");
+		setMoveable(false);
+	}
+
+	@Override
+	public String getPieceDescription() 
+	{
+		// TODO Auto-generated method stub
+		return super.pieceDescription;
+	}
+
+}
+>>>>>>> 81e51e53313a844476e2c94f3c5226628ed8e1d4
