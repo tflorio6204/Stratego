@@ -60,6 +60,8 @@ public class main
 		}
 		
 		System.out.println("----------------------------------------------------");
+		System.out.println();
+		
 		int turnCount = 0;
 		int totalArmyCount = 40;
 		int player1Wins = 0;
